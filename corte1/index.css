@@ -1,0 +1,261 @@
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+.header{
+    width:90%; 
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden;
+}
+.logo{
+    line-height: 200px;
+    font-size: 50px;
+    padding: 20px 20px;
+}
+header nav{
+    float: right;
+    line-height: 100px;
+
+}
+header nav a{
+display: inline-block;
+color: #000000;
+text-decoration: none;
+padding: 4px 8px;
+line-height: normal;
+font-size: 20px;
+font-weight: bold;
+}
+
+.section1{
+  width: 76%;
+  margin: 0 12%;
+   
+    background: #ffffff;
+   display: flex;
+    justify-content: space-between;
+}
+.titulo1{
+    margin-left: 30px;  
+    top: 192px;
+    left: 138px;
+    width: 420px;
+    height: 48px;
+    
+    text-align: left;
+    font: normal normal 900 40px/48px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+   
+}
+.parrafo1{
+    top: 242px;
+    left: 138px;
+    width: 409px;
+    height: 72px;
+    text-align: left;
+    font: normal normal 300 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1; 
+    margin-left: 30px;  
+    
+ 
+}
+
+.button1{
+top: 346px;
+left: 161px;
+width: 164px;
+height: 30px;
+text-align: center;
+font: normal normal bold 18px/24px Roboto;
+letter-spacing: 0px;
+color: #f7f7f7;
+background: #000000;
+opacity: 1;
+border-radius: 2ch;
+order: 3;
+margin-left: 30px;  
+}
+.imagen1{
+
+width: 535px;
+height: 299px;
+background: #F2F2F2  0% 0% ;
+border-radius: 20px;
+opacity: 1;
+
+
+}
+
+
+.section2{
+    background: #EFEFEF;
+    color: #9a9090;
+    width: 100%;
+   
+   
+}
+.contenedor_juegos{
+background:#ffffff ;
+ width: 76%;
+    margin: 0 12%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around
+}
+.contenedor_juegos2{
+    background:#EFEFEF ;
+     width: 76%;
+        margin: 0 12%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around
+    }
+.videojuego1{
+    border-radius: 20px;
+    background: #ffffff;
+    width: 250px;
+    height: 200px;
+   border: solid#EFEFEF ;
+}
+.fondo_juego1{
+    background: #EFEFEF;
+    width: 230px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+
+}
+.section3{
+    background: #ffffff;
+    color: #1e1919;
+    width: 100%;
+}
+
+.contenedor_estrenos{
+    background: #ffffff  ;
+     width: 100%;
+        
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around
+    }
+.botones2{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    align-items: end;
+     
+}
+.item{
+    color: #b8b7b7;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 90px;
+    margin: 0px 5px 10px 5px;
+    text-align: center;
+   
+    text-decoration: none;
+
+}
+.juegos1{
+    margin-left: 205px; 
+    color: #585757; 
+}
+/* footer */
+.footer {
+    background: #707070;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.colors-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    color: #464646;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+
+.container_F1 {
+    width: 28%;
+}
+
+
+.paragraph_3 {
+    margin-left: 90px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 165px;  
+}
+
+.logo_1 {
+    width: 12.18em;
+    height: 3.125rem;
+    color: white;
+    background: black;
+    object-fit: cover;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.list_footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 28%;
+    margin-top: 20%;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    list-style: none;
+    line-height: 28px;
+
+}
+
+.container_F1:nth-child(3) {
+    margin-top: 80px;
+}
+.logo2{
+    line-height: 200px;
+    font-size: 50px;
+    padding: 20px 20px;
+    margin-left: 145px;  
+}
+.video{
+    margin-left: 20px;     
+    color: #000000;
+}
+.item{
+    width:59% ;
+}
+.icon {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+    justify-content: center;
+    font: normal normal 300 18px/22px Lato;
+
+}
+.p{ margin-top: -30px;
+  margin-left: 990px;
+    display: flex;
+    justify-content: flex-end;
+}

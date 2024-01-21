@@ -1,0 +1,277 @@
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+.header{
+    background:#F2F2F2;
+    width:90%; 
+	max-width:100%; 
+	margin:auto; 
+	overflow:hidden;
+   
+}
+.logo{
+    line-height: 200px;
+    font-size: 50px;
+    padding: 20px 20px;
+}
+header nav{
+    float: right;
+    line-height: 100px;
+
+}
+header nav a{
+display: inline-block;
+color: #000000;
+text-decoration: none;
+padding: 4px 8px;
+line-height: normal;
+font-size: 20px;
+font-weight: bold;
+}
+
+.seccion_gamr{
+    width: 76%;
+    margin: 0 12%;
+     
+      background: #363434;
+     display: flex;
+      justify-content: space-between;
+  }
+   .div_game{
+    background: #F2F2F2;
+    border-radius: 20px;
+    top: 94px;
+    width: 1004px;
+    height: 471px;
+    margin-left: 180px;
+    
+   
+   }
+  
+   
+
+
+   
+   
+/* footer */
+.footer {
+    background: #707070;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.colors-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    color: #464646;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+
+.container_F1 {
+    width: 28%;
+}
+
+
+.paragraph_3 {
+    margin-left: 90px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.logo2{
+    line-height: 200px;
+    font-size: 50px;
+    padding: 20px 20px;
+    margin-left: 70px;  
+}
+
+.list_footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 28%;
+    margin-top: 20%;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    list-style: none;
+    line-height: 28px;
+
+}
+
+.container_F1:nth-child(3) {
+    margin-top: 80px;
+}
+/* ////////////////// */
+.information {
+    padding-top: 40px;
+    width: 78%;
+    margin: 0 10%;
+    background: #ffff;
+    height: 15vh;
+    margin-left: 150px;
+    padding-left: 2%;
+}
+
+.title_information {
+    font: normal normal 900 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #737373;
+    margin-bottom: 10px;
+}
+
+.span {
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #737373;
+}
+.formulario {
+    width: 80%;
+    margin: 0 10%;
+    height: auto;
+    background: #F2F2F2;
+}
+
+.container_input {
+    height: auto;
+    margin-left: 50px;
+}
+
+.container_input:nth-child(4),
+.container_input:nth-child(7) {
+    margin-top: 24px;
+    display: flex;
+
+
+}
+
+.selects {
+    width: 419px;
+    height: 40px;
+    background: #ffff;
+    color: #BFBFBF;
+    border: 1px solid #E3E3E3;
+    margin-top: 24px;
+
+}
+
+.selects_1 {
+    width: 275px;
+    height: 40px;
+    background: #ffff;
+    color: #BFBFBF;
+    border: 1px solid #E3E3E3;
+    margin-top: 24px;
+}
+
+.input_img {
+    width: 340px;
+    height: 40px;
+    margin-top: 24px;
+    background: #E2E2E2;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    text-align: center;
+}
+
+.container_img {
+    width: 494px;
+    height: 154px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 14px;
+    margin-left: 140px;
+
+
+}
+
+.img {
+    width: 154px;
+    height: 154px;
+    border-radius: 20px;
+    background: #ffff;
+    border: none;
+
+}
+
+.image {
+    width: 239px;
+    height: 154px;
+    border-radius: 20px;
+    background: #ffff;
+    border: none;
+    display: block;
+    margin-top: 14px;
+    margin-left: 140px;
+
+}
+
+
+.input_small {
+    width: 494px;
+    height: 217px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E3E3E3;
+    display: inline-block;
+
+}
+
+.input_small::placeholder {
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: justify;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+}
+
+label {
+    font: normal normal normal 16px/17px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.button {
+    width: 210px;
+    height: 40px;
+    background: #000000;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    font: normal normal bold 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom: 59px;
+}
+.icon-user {
+    font-size: 35px;
+    margin-left: 30px;
+    color: #707070;
+}
+.social-icons{
+    width: 30%;
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
